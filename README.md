@@ -21,7 +21,7 @@ Started with a dual-agent architecture using LangChain and LangGraph to create a
 ### Data Collection
 Leveraged Tavily Search API to retrieve relevant information from across the web, organizing results into structured documents with source tracking.
 
-### LLM Integration (Phi Model)
+### LLM Integration 
 Chose Phi model via Ollama for its efficiency and local processing capabilities. It synthesizes web content and generates comprehensive answers based on user research questions.
 
 ### Streamlit Interface
@@ -30,7 +30,7 @@ Built a clean, intuitive Streamlit UI where users can enter research questions a
 ### Source Management
 Implemented transparent source tracking that displays original URLs, titles, and content snippets for verification and further exploration.
 
-# How to run it 🚀
+# How to run it 🛠️
 ### 1. Install dependencies
    ```bash
    pip install -r requirements.txt
