@@ -60,7 +60,23 @@ Impact: Cuts outreach drafting time by ~70%
 streamlit run main.py
 ```
 
-# Demo  
+# Video Demo  
+
+### [YouTube🔗](https://youtu.be/ljXnd5LBorU)
+
+# Screenshots
+
+![image](https://github.com/user-attachments/assets/2cc51ee7-5f47-41f1-a3fa-23f19d77528a)
+
+![image](https://github.com/user-attachments/assets/823ecc1e-df59-4700-8f7a-9cfce7ff6df3)
+
+![image](https://github.com/user-attachments/assets/b138f041-f9f8-4967-bfef-d61258817e29)
+
+![image](https://github.com/user-attachments/assets/3b69a983-7155-4229-b281-598a999dc049)
+
+
+
+
 
 
     
