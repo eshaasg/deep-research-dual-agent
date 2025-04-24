@@ -1,4 +1,3 @@
-# answer_agent.py - Enhanced version
 from langchain_community.llms import Ollama
 from langchain.chains import LLMChain
 from langchain.prompts import ChatPromptTemplate
@@ -9,7 +8,6 @@ def answer_drafter_fn(state):
     question = state["input"]
     sources = state.get("sources", [])
 
-    # Create a more sophisticated answer drafting template
     answer_template = ChatPromptTemplate.from_template("""
     You are an expert research assistant tasked with creating a comprehensive answer based on collected research.
     

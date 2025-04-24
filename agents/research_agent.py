@@ -1,4 +1,3 @@
-# research_agent.py - Enhanced version
 from dotenv import load_dotenv
 import os
 from langchain.tools.tavily_search import TavilySearchResults
@@ -21,14 +20,14 @@ def research_agent_fn(state):
     retriever = TavilySearchAPIRetriever(
         api_key=tavily_api_key,
         k=8,  # Number of results to retrieve
-        include_domains=None,  # Optional: specific domains to include
-        exclude_domains=None   # Optional: domains to exclude
+        include_domains=None,  # specific domains to include
+        exclude_domains=None   
     )
     
     # Get search results as documents
     docs = retriever.get_relevant_documents(query)
     
-    # Extract sources for later reference
+    # Extract sources for reference
     sources = []
     for doc in docs:
         source = {
@@ -38,7 +37,7 @@ def research_agent_fn(state):
         }
         sources.append(source)
     
-    # Use LangChain to synthesize search results
+    # LangChain to synthesize search results
     llm = Ollama(model="phi", temperature=0.3)
     
     synthesis_prompt = ChatPromptTemplate.from_template("""
