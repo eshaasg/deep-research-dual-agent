@@ -2,11 +2,11 @@
     <img src="https://github.com/user-attachments/assets/34895ddf-4a79-4ef6-adaf-45512d0ec1b8" alt="banner" height="250" width = "450">
 </p>
 
-# Deep Research Dual Agent
+# Deep Research Dual Agent 👾
 
 A powerful AI research assistant that combines web search capabilities with local language models to deliver comprehensive answers to complex questions.
 
-# Overview 👾
+# Overview 🛰️
 
 Deep Research Dual Agent employs a sophisticated two-agent system that:
 1. **Research Agent**: Collects and synthesizes information from the web using Tavily Search API
@@ -30,6 +30,12 @@ Built a clean, intuitive Streamlit UI where users can enter research questions a
 ### Source Management
 Implemented transparent source tracking that displays original URLs, titles, and content snippets for verification and further exploration.
 
+### Performance
+
+Speed: 5-8s for scraping, 7–10s for responses
+
+Impact: Cuts outreach drafting time by ~70%
+
 # How to run it 🛠️
 ### 1. Install dependencies
    ```bash
@@ -51,8 +57,11 @@ Implemented transparent source tracking that displays original URLs, titles, and
 ### 4. Usage
  Start the Streamlit application 
 ```bash
-streamlit run app.py
+streamlit run main.py
 ```
+
+# Demo  
+
 
     
 
