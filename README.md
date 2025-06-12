@@ -1,7 +1,3 @@
-<p align="center">
-    <img src="https://github.com/user-attachments/assets/34895ddf-4a79-4ef6-adaf-45512d0ec1b8" alt="banner" height="250" width = "450">
-</p>
-
 # Deep Research Dual Agent 👾
 
 A powerful AI research assistant that combines web search capabilities with local language models to deliver comprehensive answers to complex questions.
